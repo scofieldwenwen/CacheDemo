@@ -15,6 +15,7 @@ import com.android.volley.toolbox.Volley;
  * @date 2016/6/20 16:08
  */
 public class MyVolley {
+
     private static MyVolley myVolley = null;
     private static RequestQueue requestQueue;
 
