@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void logger(View v){
-        String url = "http://120.24.73.180/dogchain/secure/pet/list_friends_pet";
+        String url = "";
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> map = new HashMap<String, String>();
-                map.put("token", "MTB8N243bnBhNWE4YXwxNDY3NzgyMjQzMTQw");
+                map.put("key", "value");
                 return map;
             }
         };
